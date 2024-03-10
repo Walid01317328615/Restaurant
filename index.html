@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Restaurant</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar bg-primary-subtle container rounded">
+      <div class="container-fluid d-flex flex-row-reverse ">
+        <div class="d-flex " role="search">
+          <input id="search-field" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button onclick="seachLoad()" class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+
+    <!-- img section... -->
+
+
+    <div id="carouselExample" class="carousel slide container">
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active ">
+          <img src="barger pk1.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="barger.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="barger pk1.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section> <br>
+
+
+  <!-- text about the ...... -->
+
+
+  <section class="container">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item ">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Learn about the restaurant #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quos aliquam beatae, quia tempora sit fuga, id quas delectus maxime nihil eos ea officia culpa magnam? Dolore totam nesciunt suscipit, corporis labore nisi laborum animi blanditiis deleniti, rerum libero. Ut delectus qui ex non eum, voluptas labore corrupti explicabo architecto iste dolorem laudantium deserunt porro. Non ad odit facilis nemo! Rerum eos pariatur atque. Ad explicabo facilis vero ex possimus? Soluta eligendi placeat earum vero molestias quaerat ipsam dolorem minus ab assumenda blanditiis numquam atque labore voluptatem distinctio a possimus quam autem sed, sequi perferendis illo. Laboriosam dolore labore quam. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Learn about the restaurant foods #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. At amet quam debitis itaque. A praesentium itaque similique, minima delectus aut tempora iure! Eius nemo, blanditiis error dolorum doloribus perferendis ducimus ipsam vitae exercitationem architecto sunt similique voluptatibus. Velit ipsa quis inventore voluptatum in nihil eaque repellendus vitae animi id, natus laborum, provident asperiores reprehenderit blanditiis. Blanditiis maxime saepe dicta esse vitae ratione, dolorem voluptates, debitis molestiae aspernatur nostrum sunt libero ipsam autem ducimus magnam accusamus laborum magni sequi. Doloribus illo laborum incidunt repellat vero quos accusamus nobis ea itaque in, distinctio quas quisquam cumque a. Perferendis similique deserunt aut a? It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Restaurants food items #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint corporis illum quaerat beatae ex corrupti, rem voluptatem saepe labore. Possimus dolor recusandae quasi, culpa voluptate laborum doloremque. Mollitia, fugiat debitis atque amet quis ipsum ducimus omnis consequuntur, iste enim voluptates? In temporibus sint, recusandae cumque quod dolore quo nesciunt nostrum voluptate excepturi non reiciendis, natus deserunt reprehenderit cupiditate. Est voluptates officiis placeat. Mollitia consectetur architecto ullam! Exercitationem amet unde vel quaerat omnis autem, sequi laboriosam nesciunt facilis soluta temporibus laborum blanditiis nostrum molestiae perspiciatis? Cumque nam sit expedita beatae. Quae nisi esse dolor illum rerum similique at commodi possimus neque. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div id="ModalLabelBody"  class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- card -->
+
+<div class="card text-bg-dark container">
+  <img src="www3.webp" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="card-title fs-3 position-absolute top-20 start-50 translate-middle-x ">Restaurant Images & Restaurant Stock Photos</h5>
+    <p class="card-text fs-5 fst-italic  position-absolute top-50 start-50 translate-middle">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    
+  </div>
+</div> <br> <br>
+
+
+    <main>
+        <section class="container">
+
+            <div id="meal-container" class="row row-cols-1 row-cols-md-3 g-4">
+             
+              </div>
+
+        </section>
+
+       
+      
+    </main>
+
+       <button class="bg-primary-subtlep-3 mb-2 btn btn-success position-absolute  start-50 translate-end" id="but-click" > See more..</button> 
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="meal.js"></script>
+
+  
+
+    
+</body>
+</html>
